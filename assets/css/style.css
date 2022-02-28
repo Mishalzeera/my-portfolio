@@ -25,13 +25,12 @@ body {
 }
 
 section {
-  height: 100vh;
+  height: 120vh;
 }
 
 h1 {
   font-family: "Lora", serif;
   font-weight: 700;
-  /* letter-spacing: -2px; */
 }
 
 a {
@@ -43,10 +42,19 @@ a:hover {
   color: var(--cyan-400);
 }
 
+.row {
+  margin: 0 auto;
+}
+
 .headline {
   display: flex;
   justify-content: center;
+  flex-direction: column;
   align-items: flex-start;
+}
+
+.headline-p {
+  letter-spacing: 5px;
 }
 
 .contact-info {
@@ -75,13 +83,13 @@ a:hover {
   cursor: pointer;
 }
 #arrow-down {
-  opacity: 0.2;
+  opacity: 0.1;
   position: fixed;
 }
 
 #down-arrow-pulse {
-  font-size: 4rem;
-  align-self: flex-start;
+  font-size: 2rem;
+  align-self: center;
 }
 
 #about-me {
@@ -110,11 +118,25 @@ a:hover {
 
 #projects {
   background: linear-gradient(to right, var(--cyan-400), var(--cyan-900));
-  height: 100vh;
+  height: 120vh;
   background-attachment: fixed;
   opacity: 0;
 }
 
+.rainbow {
+  padding-top: 6rem;
+}
+
 .github {
   font-size: 5rem;
+}
+
+.live-site {
+  font-size: 5rem;
+}
+
+.link-spans {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
 }
