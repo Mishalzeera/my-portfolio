@@ -1,4 +1,120 @@
+/* Lora */
+
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;500;700&display=swap");
+
+/* Libre Franklin */
+
+@import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,400;0,700;0,800;0,900;1,500&family=Lora:wght@400;500;700&display=swap");
+
+:root {
+  --main-font: "Libre Franklin";
+  --serif-font: "Lora";
+  --bg-color: var(--cool-gray-800);
+  --bg-color-accent: var(--blue-gray-600);
+  --text-color: var(--cool-gray-200);
+  --text-color-accent: var(--cool-gray-100);
+}
+
 body {
-  background-color: var(--cool-gray-800);
-  color: var(--cool-gray-200);
+  padding-top: 6rem;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  font-family: "Libre Franklin", sans-serif;
+  font-size: 1rem;
+  line-height: 1.4;
+}
+
+section {
+  height: 100vh;
+}
+
+h1 {
+  font-family: "Lora", serif;
+  font-weight: 700;
+  /* letter-spacing: -2px; */
+}
+
+a {
+  color: inherit;
+  transition: all ease-in-out 250ms;
+}
+
+a:hover {
+  color: var(--cyan-400);
+}
+
+.headline {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.play-music {
+  margin-top: 1rem;
+  color: var(--text-color);
+  border: 1px solid var(--text-color);
+  width: 9rem;
+  padding: 0.5rem 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all ease-in-out 250ms;
+}
+
+.play-music:hover {
+  border: 1px solid var(--bg-color-accent);
+  background-color: var(--cyan-800);
+  color: var(--text-color-accent);
+  cursor: pointer;
+}
+#arrow-down {
+  opacity: 0.2;
+  position: fixed;
+}
+
+#down-arrow-pulse {
+  font-size: 4rem;
+  align-self: flex-start;
+}
+
+#about-me {
+  background-image: url("../img/about-me.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  opacity: 0;
+}
+
+#goat-daisy {
+  background-image: url("../img/goat.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  opacity: 0;
+}
+
+#money {
+  background-image: url("../img/sheikh-bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  opacity: 0;
+}
+
+#projects {
+  background: linear-gradient(to right, var(--cyan-400), var(--cyan-900));
+  height: 100vh;
+  background-attachment: fixed;
+  opacity: 0;
+}
+
+.github {
+  font-size: 5rem;
 }
