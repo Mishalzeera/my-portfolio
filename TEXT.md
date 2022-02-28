@@ -2,7 +2,7 @@ About Me
 
 Im a musician with an education in the arts, having studied Visual Communication and Photography at Regents College, London. Years spent working with digital recording technology gave me an interest in software, which led me to web development.
 
-Python/Flask/Django, Javascript/GSAP animation library, CSS, Bootstrap, HTML, Photoshop/Affinity
+Python/Flask/Django, Javascript/GSAP animation library, CSS, Bootstrap, HTML, Photoshop/Affinity, photography
 
 Goat Daisy
 
@@ -22,10 +22,14 @@ Haarlem Bij Nacht - Art project funded by the city of Haarlem
 
 35smile - My static sidebusiness project
 
+The Green Door - a local barbershop which has since closed
+
 This portfolio site was built using HTML, CSS (including Bootstrap), GSAP js library (including the lovely Scroll Trigger module)
 
 More about me
 
-I think people skills and relationships are most important. I have had a lot of experience managing difficult creative projects with complex personalities. I have found this experience in the music industry has served me very well in so many other fields, as it always seems to come back to human relationships.
+I think people skills and relationships are most important. I have had a lot of experience managing difficult creative projects with complex personalities. I have found this has served me very well in so many other fields. 
 
-I am a singer, songwriter, baker and a cook. I volunteer two days a week at a hospice. I am of mixed Arab-European heritage and live in the Netherlands.
+It always seems to come back to human relationships.
+
+I am a singer, songwriter, writer, baker and a cook. I volunteer two days a week at a hospice. I am of mixed Arab-European heritage and live in the Netherlands.
