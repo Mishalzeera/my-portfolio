@@ -59,8 +59,8 @@ a:hover {
 .contact-info {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: flex-end;
+  margin-top: 1rem;
 }
 
 .play-music {
@@ -81,19 +81,34 @@ a:hover {
   color: var(--text-color-accent);
   cursor: pointer;
 }
+
+#large-arrow-span {
+  opacity: 0.4;
+  position: absolute;
+  top: 50px;
+  left: 50vw;
+}
+
+#large-arrow-icon {
+  font-size: 10rem;
+  opacity: 0;
+}
+
 #arrow-down {
   opacity: 0.1;
   position: fixed;
+  top: 50px;
+  right: 50px;
 }
 
 #down-arrow-pulse {
+  margin-top: 1rem;
   font-size: 2rem;
   align-self: center;
 }
 
 #top {
   padding-top: 6rem;
-
 }
 
 #about-me {
@@ -125,10 +140,13 @@ a:hover {
 
 #projects {
   background: linear-gradient(to right, var(--cyan-700), var(--cyan-900));
-  /* background: linear-gradient(to right, var(--cyan-700), var(--sky-900)); */
-  height: 120vh;
+  height: 110vh;
   background-attachment: fixed;
   opacity: 0;
+}
+
+.projects-col {
+  max-width: 750px;
 }
 
 .rainbow {
@@ -151,4 +169,100 @@ a:hover {
 
 .money-right {
   text-align: end;
+}
+
+@media (max-width: 767px) {
+  section {
+    height: 110vh;
+  }
+
+  #large-arrow-span {
+    top: 10px;
+    left: 40vw;
+  }
+
+  #large-arrow-icon {
+    font-size: 4rem;
+  }
+
+  h1 {
+    margin: 0 auto;
+    font-size: 10rem;
+  }
+
+  .headline-p {
+    text-align: right;
+    margin-top: 3rem;
+  }
+
+  .contact-info {
+    display: flex;
+    letter-spacing: 2px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+    margin-top: 1rem;
+  }
+
+  #down-arrow-pulse {
+    font-size: 2rem;
+    position: absolute;
+    top: 50px;
+    right: 50px;
+  }
+
+  #about-me {
+    background-size: contain;
+    background-color: var(--bg-color);
+    background-blend-mode: difference;
+  }
+
+  .github {
+    font-size: 2rem;
+  }
+
+  .live-site {
+    font-size: 2rem;
+  }
+  .link-spans {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  #goat-daisy {
+    background-position: center;
+  }
+
+  .goat-text {
+    order: 1;
+  }
+
+  .goat-spans {
+    margin-top: 1rem;
+    order: 2;
+  }
+
+  #money {
+    background-size: cover;
+    background-position: top;
+  }
+  #projects {
+    height: 160vh;
+  }
+
+  .project-title {
+    font-size: 1rem;
+  }
+
+  .projects-col {
+    gap: 1rem;
+    text-align: end;
+  }
+
+
+@media (max-width: 450px) {
+  #goat-daisy {
+    background-position: left;
+  }
 }

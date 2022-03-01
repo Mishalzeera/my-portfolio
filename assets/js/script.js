@@ -6,6 +6,19 @@ function playMusic() {
 
 const startAnim = () => {
   gsap.from("#top", { opacity: 0, duration: 2 });
+  gsap.fromTo("#large-arrow-icon", { opacity: 0 }, { opacity: 1, duration: 6 });
+
+  gsap.to("#large-arrow-span", {
+    opacity: 0,
+    duration: 5,
+  });
+
+  gsap.fromTo(
+    "#arrow-down",
+    { opacity: 0 },
+    { opacity: 0.2, duration: 40, ease: "slow.in" }
+  );
+
   gsap.from("#down-arrow-pulse", {
     opacity: 0,
     duration: 0.8,
@@ -25,7 +38,7 @@ gsap.to("#about-me", {
 gsap.to("#goat-daisy", {
   scrollTrigger: {
     trigger: ".goat",
-    toggleActions: "restart none none none",
+    toggleActions: "restart none none reset",
   },
   opacity: 1,
   duration: 4,

@@ -31,14 +31,17 @@
           <h1 class="display-1">Mishal Zeera</h1>
           <p class="headline-p">
             <small>
-              Python/Flask/Django - Javascript/GSAP animation library -
+              Python/Flask/Django/Javascript/GSAP animation library -
               Photoshop/Affinity Photo - Photography
             </small>
           </p>
+          <span id="large-arrow-span"
+            ><i id="large-arrow-icon" class="bi bi-arrow-down-square-fill"></i
+          ></span>
         </div>
         <div class="col-md-6 contact-info">
           <!-- summary/contact info -->
-          <p>Full stack web developer</p>
+          <p>Web developer</p>
           <p>+31 657 397 486</p>
           <p>mishal.zeera@gmail.com</p>
           <!-- music button -->
@@ -73,40 +76,41 @@
     <section id="goat-daisy" class="container-fluid">
       <!-- background image is goats head -->
       <div class="row container goat">
-        <div class="col-sm-6">
+        <div class="col-sm-6 goat-spans">
           <!-- link to github repo and site -->
-          <!-- return to top icon -->
 
           <div class="link-spans">
             <a
               href="https://github.com/Mishalzeera/goat-and-daisy-antiques"
               target="_blank"
-              id="gitgoat"><span class="github"><i class="bi bi-github"></i></span>View Code
+              id="gitgoat"
+              ><span class="github"><i class="bi bi-github"></i></span>View Code
               on Github</a
             >
             <a
               href="https://goat-and-daisy-antiques.herokuapp.com/"
               target="_blank"
-              id="livegoat"><span class="live-site"><i class="bi bi-binoculars"></i></span>To
+              id="livegoat"
+              ><span class="live-site"><i class="bi bi-binoculars"></i></span>To
               live site</a
             >
           </div>
         </div>
-        <div class="col-sm-6">
+        <div class="col-sm-6 goat-text">
           <!-- description -->
-          <p class="lead">Some of my work</p>
+          <p class="lead">Completed Projects:</p>
           <h2>Goat And Daisy Antiques</h2>
           <p>
-            A full stack project built in Django. Fictional antique shop that
-            does specialised repairs, involving the customer closely in the
-            process. Integrating Stripe payments (CC, bank transfers, local
-            providers like iDeal etc) and a custom payment webhook flow, the
-            site has unique CMS sections for different staff permissions groups.
-            Bootstrap, AWS S3 buckets, deployed on Heroku.
+            A full stack project built in Django/Postgres. Fictional antique
+            shop that does specialised repairs, involving the customer closely
+            in the process. Integrating Stripe payments (CC, bank transfers,
+            local providers like iDeal etc) and a custom payment webhook flow,
+            the site has unique CMS sections for different staff permissions
+            groups. Bootstrap, AWS S3 buckets, deployed on Heroku.
           </p>
           <a href="#top" style="text-decoration: none"
-            ><i class="bi bi-arrow-up-square"></i> <small>To Top</small></a
-          >
+            ><i class="bi bi-arrow-up-square"></i> <small></small
+          ></a>
         </div>
       </div>
     </section>
@@ -116,14 +120,14 @@
       <div class="row container money">
         <div class="col-sm-6">
           <!-- description -->
-          <p class="lead">Some more of my work</p>
+          <p class="lead">Completed Projects:</p>
           <h2>Munificent - The Money Manager</h2>
           <p>
-            An app built using Flask/Werkzeug. Takes in details of your
-            financial activity and keeps track of desired savings amounts, taxes
-            to set aside and specifics related to tax seasons. Features variable
-            tax rate by location, secure user accounts and (my favourite
-            feature) light vs dark mode.
+            An app built using Flask/Werkzeug/MongoDB. Takes in details of your
+            financial activity and keeps track of suggested savings amounts,
+            taxes to set aside and specifics related to tax seasons. Features
+            include variable tax rate by location, default best financial
+            practises and (my favourite feature) light vs dark mode.
           </p>
           <a href="#top"><i class="bi bi-arrow-up-square"></i></a>
         </div>
@@ -134,14 +138,16 @@
             <a
               href="https://github.com/Mishalzeera/the-money-manager"
               target="_blank"
-              id="gitmoney">View Code on Github<span class="github"
-                ><i class="bi bi-github"></i></span
+              id="gitmoney"
+              >View Code on Github
+              <span class="github"><i class="bi bi-github"></i></span
             ></a>
             <a
               href="http://mishals-money-manager.herokuapp.com/login"
               target="_blank"
-              id="livemoney">To live site<span class="live-site"
-                ><i class="bi bi-binoculars"></i></span
+              id="livemoney"
+              >To live site
+              <span class="live-site"><i class="bi bi-binoculars"></i></span
             ></a>
           </div>
         </div>
@@ -151,46 +157,44 @@
     <section id="projects" class="container-fluid">
       <!-- dynamic rainbow gradients -->
       <div class="row container rainbow">
-        <div class="col">
-          <p class="lead">
+        <div class="col projects-col">
+          <p class="lead project-title">
             Static design and build projects for fun, friends and pocket money.
           </p>
 
           <a href="https://haarlembijnacht.com/index.html" target="_blank">
-            <h2>
-              Haarlem Bij Nacht - Art project funded by the city of Haarlem
-            </h2>
+            <h2>Haarlem Bij Nacht</h2>
           </a>
           <p>
-            A website to show the work of Haarlem, Netherlands photographer
-            Marike Koe and Haarlem city-poet Joshua Baumgarten. Features
-            randomiser script that juxtaposes images and text randomly
-            per-instance.
+            Art project funded by the city of Haarlem, it shows the work of
+            Dutch photographer Marike Koe and Haarlem city-poet Joshua
+            Baumgarten. Features randomiser script that juxtaposes images and
+            text randomly per-instance.
           </p>
           <a href="https://setts.eu/" target="_blank">
-            <h2>Setts - Handmade Swedish workwear</h2>
+            <h2>Setts</h2>
           </a>
           <p>
-            A webshop built using the One.com website builder, featuring the
-            photography of Baudewijn Smit.
+            A webshop selling handmade Swedish workwear built using the One.com
+            website builder. Featuring the photography of Boudewijn Smit.
           </p>
           <a href="https://frosty-thompson-7ff758.netlify.app/" target="_blank">
-            <h2>The Green Door - a local barbershop</h2>
+            <h2>The Green Door</h2>
           </a>
           <p>
-            A site commissioned by a business owner who needed an integrated
-            public calendar. It uses the Calendly Api which worked really well.
-            Unfortunately the barbershop has since closed, but it was an
-            interesting collaborative experience as my client had very strong
-            opinions on what she wanted.
+            A site commissioned by a local barbershop owner who needed an
+            integrated public calendar. It uses the Calendly Api which worked
+            really well. Unfortunately the barbershop has since closed, but it
+            was an interesting collaborative experience as my client had a very
+            strong sense of what she wanted.
           </p>
 
-          <h2>This portfolio site...</h2>
+          <h4>This portfolio site...</h4>
           <p>
-            ...which was built using HTML, CSS (including Bootstrap), GSAP js
-            library (including the lovely Scroll Trigger module).
+            ... was built using GSAP js library (including the lovely Scroll
+            Trigger module).
           </p>
-          <a
+          <!-- <a
             href="https://vibrant-nightingale-1994f5.netlify.app/"
             target="_blank"
           >
@@ -200,13 +204,10 @@
             I did the music and the voices for this early experiment with a
             Javascript browser game. Please don't try this on Safari. Please
             don't take it too seriously. I'm not an expert on card games!
-          </p>
+          </p> -->
           <a href="#top" style="text-decoration: none"
             ><i class="bi bi-arrow-up-square"></i> <small>To Top</small></a
           >
-          <!-- heading - small projects on the side -->
-          <!-- list of sites with links and short descriptions -->
-          <!-- return to top icon -->
         </div>
       </div>
     </section>
