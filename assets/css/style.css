@@ -16,7 +16,6 @@
 }
 
 body {
-  padding-top: 6rem;
   background-color: var(--bg-color);
   color: var(--text-color);
   font-family: "Libre Franklin", sans-serif;
@@ -92,7 +91,13 @@ a:hover {
   align-self: center;
 }
 
+#top {
+  padding-top: 6rem;
+
+}
+
 #about-me {
+  padding-top: 6rem;
   background-image: url("../img/about-me.png");
   background-repeat: no-repeat;
   background-position: center;
@@ -101,6 +106,7 @@ a:hover {
 }
 
 #goat-daisy {
+  padding-top: 6rem;
   background-image: url("../img/goat-bg.png");
   background-repeat: no-repeat;
   background-position: center;
@@ -109,6 +115,7 @@ a:hover {
 }
 
 #money {
+  padding-top: 6rem;
   background-image: url("../img/sheikh-bg.png");
   background-repeat: no-repeat;
   background-position: center;
@@ -117,7 +124,8 @@ a:hover {
 }
 
 #projects {
-  background: linear-gradient(to right, var(--cyan-400), var(--cyan-900));
+  background: linear-gradient(to right, var(--cyan-700), var(--cyan-900));
+  /* background: linear-gradient(to right, var(--cyan-700), var(--sky-900)); */
   height: 120vh;
   background-attachment: fixed;
   opacity: 0;
@@ -138,5 +146,9 @@ a:hover {
 .link-spans {
   display: flex;
   flex-direction: column;
-  gap: 5rem;
+  gap: 10rem;
+}
+
+.money-right {
+  text-align: end;
 }

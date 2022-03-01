@@ -30,6 +30,9 @@ gsap.to("#goat-daisy", {
   opacity: 1,
   duration: 4,
 });
+
+// gitgoat livegoat
+
 gsap.to("#money", {
   scrollTrigger: {
     trigger: ".money",
@@ -38,6 +41,8 @@ gsap.to("#money", {
   opacity: 1,
   duration: 4,
 });
+
+// gitmoney livemoney
 
 gsap.to("#projects", {
   scrollTrigger: {
