@@ -1,3 +1,5 @@
-Money readme, SSL
+Money readme
 
-Bluebird image optimisation
+Image on main top part
+my picture
+about me text

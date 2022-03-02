@@ -259,8 +259,7 @@ a:hover {
     gap: 1rem;
     text-align: end;
   }
-
-
+}
 @media (max-width: 450px) {
   #goat-daisy {
     background-position: left;
